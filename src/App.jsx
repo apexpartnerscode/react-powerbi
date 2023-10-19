@@ -3,7 +3,9 @@ import { PowerBIEmbed } from 'powerbi-client-react'
 import { models } from 'powerbi-client';
 
 function App() {
-  console.log(process.env.REACT_APP_EMBED_TOKEN)
+  setTimeout(() => {
+    window.location.reload();
+  }, 30 * 60 * 1000);
   return (
     <div className="h-screen w-screen">
       <PowerBIEmbed
