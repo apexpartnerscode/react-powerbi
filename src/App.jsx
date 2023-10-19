@@ -5,7 +5,7 @@ import { models } from 'powerbi-client';
 function App() {
   setTimeout(() => {
     window.location.reload();
-  }, 30 * 60 * 1000);
+  }, 5 * 60 * 1000);
   return (
     <div className="h-screen w-screen">
       <PowerBIEmbed
