@@ -3,6 +3,7 @@ import { PowerBIEmbed } from 'powerbi-client-react'
 import { models } from 'powerbi-client';
 
 function App() {
+  console.log(process.env.REACT_APP_EMBED_TOKEN)
   return (
     <div className="h-screen w-screen">
       <PowerBIEmbed
