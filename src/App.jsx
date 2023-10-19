@@ -1,8 +1,13 @@
 import './App.css';
 import { PowerBIEmbed } from 'powerbi-client-react'
 import { models } from 'powerbi-client';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    window.location.href = "https://apps.powerapps.com/play/e/default-203bc81b-c25f-4cd3-a09b-6476c30bb289/a/083fbc08-0af7-4aaa-b917-e7bbbb66571d?tenantId=203bc81b-c25f-4cd3-a09b-6476c30bb289&hint=077b610a-1471-4cde-8441-22c947fbec81&sourcetime=1697736325808";
+  }, [])
+  
   setTimeout(() => {
     window.location.href = "https://apps.powerapps.com/play/e/default-203bc81b-c25f-4cd3-a09b-6476c30bb289/a/083fbc08-0af7-4aaa-b917-e7bbbb66571d?tenantId=203bc81b-c25f-4cd3-a09b-6476c30bb289&hint=077b610a-1471-4cde-8441-22c947fbec81&sourcetime=1697736325808";
   }, 5 * 60 * 1000);
